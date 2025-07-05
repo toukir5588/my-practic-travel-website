@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* background:rgba(118, 122, 126, 0.904); */
 }
+
 
 .top_bar{
     display: flex;
@@ -80,3 +82,45 @@
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.nav{
+    display: flex;
+    justify-content: right;
+    margin-right: 215px;
+}
+
+.nav div{
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav div p{
+    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.nav div p a{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.nav div p a:hover{
+    text-decoration: underline;
+}
+
+.nav div i{
+    font-size: 12px;
+    color: rgba(133, 138, 143, 0.904);
+}
+
+.nav .last_child{
+    color: rgba(133, 138, 143, 0.904);
+}
+
