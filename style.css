@@ -92,6 +92,7 @@
     font-size: 17px;
     align-items: center;
     justify-content: center;
+    
 }
 
 .nav div p{
@@ -120,4 +121,54 @@
 
 .nav .last_child{
     color: rgba(133, 138, 143, 0.904);
+}
+.main{
+    background: #ececec;
+   
+}
+
+.subjact{
+    display: flex;
+    margin: 0 215px;
+    /* background: #ecf0f1; */
+}
+
+.subjact .sit_bar{
+    width: 350px;
+    
+}
+.subjact .sit_bar .img{
+    width: 350px;
+    height: 250px;
+    background: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+
+   
+}
+
+.subjact .sit_bar .img img{
+    width: 340px;
+    height: 240px;
+    padding: 7px;
+}
+
+.subjact .sit_bar .form{
+    width: 350px;
+    background: white;
+    margin-top: 20px;
+    border-radius: 20px;
+     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.subjact .sit_bar .form h3{
+    padding: 10px 0px 0px 15px;
+    padding-bottom: 15px;
+    background: #ecf0f1;
+    border-radius:20px 20px 0px 0px ;
 }
